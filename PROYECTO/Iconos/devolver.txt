@@ -1,0 +1,29 @@
+<script>
+window.history.replaceState(null, null, window.location.pathname);
+</script>
+
+REFRESCA LA URL Y EVITA LA VENTANA DE CONFIRMAR Y ENVIAR DATOS DUPLICADOS
+
+ <div class="tab-buttons">
+                <button class="tab-button" data-tab-content="registrar-prestamo">
+                    <i class="fa-solid fa-file-circle-plus"></i> Registrar Préstamo
+                </button>
+                <button class="tab-button" data-tab-content="devoluciones-pendientes">
+                    <i class="fa-solid fa-clock-rotate-left"></i> Devoluciones Pendientes
+                </button>
+                <button class="tab-button" data-tab-content="historial-prestamos">
+                    <i class="fa-solid fa-clipboard-list"></i> Historial de Préstamos
+                </button>
+                <button class="tab-button" data-tab-content="materiales-disponibles">
+                    <i class="fa-solid fa-boxes-stacked"></i> Materiales Disponibles
+                </button>
+                <button class="tab-button" data-tab-content="total-materiales">
+                    <i class="fa-solid fa-list-ol"></i> Total de Materiales
+                </button>
+                <button class="tab-button" data-tab-content="observaciones-materiales">
+                    <i class="fa-solid fa-comment-dots"></i> Observaciones
+                </button>
+            </div>
+
+
+showFloatingMessage  (ALERTAS)
